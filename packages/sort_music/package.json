@@ -1,0 +1,38 @@
+{
+  "name": "@bsebas/sort_music",
+  "version": "1.0.0",
+  "description": "Sort the songs according to their main artist",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "co": "sui-mono commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsebas/scripts.git"
+  },
+  "keywords": [
+    "music",
+    "sort",
+    "songs"
+  ],
+  "author": "bsebas",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bsebas/scripts/issues"
+  },
+  "homepage": "https://github.com/bsebas/scripts#readme",
+  "devDependencies": {
+    "@s-ui/mono": "2.26.0",
+    "@types/node": "17.0.29",
+    "eslint": "8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "dependencies": {
+    "@types/commander": "2.12.2",
+    "commander": "9.2.0"
+  }
+}
