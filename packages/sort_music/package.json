@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Sort the songs according to their main artist",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "scripts": {
     "co": "sui-mono commit"
